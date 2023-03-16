@@ -4,23 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar</title>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Kafe Akbar</title>
+
+
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap" rel="stylesheet">
+
+
+<!-- father.icons -->
+<script src="https://unpkg.com/feather-icons"></script>
+
+
+<!-- style.css -->
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <div class="container">
-        <div class="w-full flex justify-between px-4 py-2">
-            <h1>Welcome to <span class="font-bold text-zinc-400"> Cafee </span></h1>
-        </div>
-    </div>
 
-     <script>
-        feather.replace()
-        AOS.init();
+
+  <!-- navbar star -->
+<nav class="navbar">
+  <a href="#" class="navbar-logo">Kenangan<span>Akbar</span></a>
+  <div class="navbar-nav">
+    <a href="#home">Home</a>
+    <a href="#about">Tentang Kami</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Kontak</a>
+  </div>
+  <div class="navbar-extra">
+    <a href="#" id="search" data-feather="search"><i ></i></a>
+    <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+    <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+  </div>
+</nav>
+<!-- navbar end -->
+
+<!-- hero section star -->
+<section class="hero" id="home">
+  <main class="content">
+    <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, nihil!</p>
+    <a href="#" class="cta">Beli Sekarang</a>
+    <img src="img/coffee.jp" alt="">
+  </main>
+</section>
+<!-- hero section end -->
+
+<!-- about section start -->
+<section id="about" class="about">
+  <h2><span>Tentang</span>Kami</h2>
+
+  <div class="row">
+    <div class="about-img">
+     <img src="img/about.jpg" alt="Tentang Kami">
+    </div>
+  <div class="content">
+    <h3>Kenapa memilih kopi kami?</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur vero quia deserunt voluptatum dolorem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, molestiae eum! Obcaecati corporis fugiat voluptatem excepturi, eaque impedit illum assumenda?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos ab voluptates ad rerum quaerat. Magni dolores ullam commodi nesciunt.</p>
+  </div>
+  </div>
+</section>
+
+
+<!-- about section end -->
+
+
+<!-- menu section start -->
+ <section id="menu" class="menu">
+   <h2><span>Menu</span>Kami</h2>
+  </section>
+<!-- menu section end -->
+
+
+
+
+<!-- father icons -->
+    <script>
+      feather.replace()
     </script>
+
+    
 </body>
 </html>
